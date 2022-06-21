@@ -1,0 +1,29 @@
+## gitignore for TwinCAT3
+
+## Visual Studio files
+#*.sln
+*.suo
+*.user
+
+## Backup files
+*.~u
+*.bak
+
+## TwinCAT files
+*.tpy
+#licence file
+*.tclrs
+*.compiled-library
+*.compileinfo
+*.tszip
+*.tmc
+*.tmcRefac
+*.library
+*.dbg
+_Boot/
+_CompileInfo/
+_Libraries/
+_ModuleInstall/
+
+## Other files
+Thumbs.db
